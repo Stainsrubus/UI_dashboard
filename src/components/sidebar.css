@@ -1,0 +1,47 @@
+.sidebar{
+    width: 230px;
+    height: 1149px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.nav-item{ 
+    list-style: none;
+}
+.sidebar h1{
+    color: #013CC6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   padding-top: 55px;
+   padding-bottom:65px ;
+   
+}
+.nav-item.active span{
+    color: #0B63F8;
+}
+.nav-item span{
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    padding-left: 16px;
+}
+.nav-item-list{
+    height: 993px;
+}
+.frame1{
+    display: flex;
+    flex-direction: column;
+   row-gap: 41px;
+}
+.frame2{
+    padding-top: 380px;
+}
