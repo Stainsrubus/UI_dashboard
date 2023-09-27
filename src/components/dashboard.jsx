@@ -9,7 +9,7 @@ function dashboard() {
     <div className='top-bar d-flex '>
         <div class="search-bar">
             <div class="search-icon">
-                <img src="src/assets/search-normal.svg" alt="Image" />
+                <img src="src/assets/search-normal.svg" />
             </div>
             <input type="text" placeholder="Search" />
         </div>
